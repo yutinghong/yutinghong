@@ -32,12 +32,12 @@
     /*        Banner         */
     .Banner {
         width: 100%;
-        padding: 50px 0 0px 0;
+        margin-top: -60px;
         border-bottom: 2px solid #BEAD92;
     }
     .BannerLeft {
         width: 480px;
-        height: 500px;
+        height: 600px;
         background-image: url(../images/index/BannerLeft.png);
         background-repeat: no-repeat;
         display: inline-block;
@@ -45,7 +45,7 @@
     }
     .BannerRight {
         width: 480px;
-        height: 500px;
+        height: 600px;
         background-image: url(../images/index/BannerRight.png);
         background-repeat: no-repeat;
         display: inline-block;
