@@ -99,7 +99,7 @@
         vertical-align: top;
     }
     .MyPhoto img {
-        width: 300px;
+        width: 100%;
         border-radius: 99em;
     }
     .Hello {
