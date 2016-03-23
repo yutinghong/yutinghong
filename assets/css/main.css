@@ -102,6 +102,7 @@
     .MyPhoto img {
         width: 300px;
         border-radius: 99em;
+        background-image: url(../images/about/Ting.jpg);
     }
     .Hello {
         padding: 50px 0 20px 0;
