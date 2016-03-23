@@ -160,6 +160,7 @@
         text-align: center;
         background-color: #7BA3A8;
         padding: 8px;
+        vertical-align: bottom;
         border-bottom: 1px solid #7BA3A8;
         border-radius: 0 0 8px 8px;
     }
