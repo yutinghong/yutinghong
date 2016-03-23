@@ -1,0 +1,215 @@
+/*        手機版         */
+
+@media screen and (max-device-width: 480px) {
+    // 如果使用者之裝置寬度 <= 480px，將會再載入這裡的 CSS。 
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+    /*        footer         */
+    .footer {
+        clear: both;
+        width: 100%;
+        height: 100px;
+        background-color: #232323;
+    }
+    /*         首頁          */
+    /*        Banner         */
+    .Banner {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-bottom: 2px solid #BEAD92;
+        display: block;
+    }
+    .BannerLeft {
+        width: 49%;
+        height: 300px;
+        background-image: url(../images/index/BannerLeft.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .BannerRight {
+        width: 49%;
+        height: 300px;
+        background-image: url(../images/index/BannerRight.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-color: #A66953;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .BannerTitle {
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .right .BannerTitle {
+        margin-left: 10px;
+    }
+    .BannerContent {
+        font-size: 12px;
+        padding: 20px;
+    }
+    /*        Content         */
+    .Content {
+        background-color: #F4F3DE;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .ContentBox {
+        width: 300px;
+        padding: 50px;
+        border-radius: 20px;
+        border: 2px dotted #A66953;
+        margin: 45px;
+        display: block;
+        margin: 29px auto;
+    }
+    .ContentTitle {
+        font-size: 24px;
+        padding: 20px 0 0 0;
+        text-align: center;
+    }
+    /*         關於          */
+    .AboutModel {
+        width: 100%;
+        border-bottom: 2px solid #BEAD92;
+        padding: 20px;
+    }
+    .AboutLeft {
+        width: 100%;
+        display: block;
+    }
+    .AboutRight {
+        width: 100%;
+        display: block;
+    }
+    img {
+        width: 80%
+    }
+    .MyPhoto {
+        margin: 0 auto;
+    }
+    .MyPhoto img {
+        width: 300px;
+        border-radius: 99em;
+    }
+    .Hello {
+        padding: 20px 0;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'Verdana', 'Arial';
+    }
+    .Title {
+        padding: 0px 0;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: 'Verdana', 'Arial';
+    }
+    .AboutMe {
+        padding: 10px 0;
+    }
+    .SubTitle {
+        width: 100px;
+        font-size: 18px;
+        color: #FFF;
+        text-align: center;
+        background-color: #5B4947;
+        padding: 6px 10px;
+        border-radius: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .Answer {
+        font-size: 18px;
+        padding: 6px 10px;
+        color: #5B4947;
+        border-radius: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .AnswerBlock {
+        font-size: 18px;
+        padding: 6px 10px;
+        color: #5B4947;
+        border-radius: 10px;
+    }
+    /*        平面設計         */
+    .Design {
+        padding: 40px 0;
+    }
+    .DesignTitle {
+        font-size: 36px;
+        color: #7BA3A8;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #7BA3A8;
+        text-align: center;
+    }
+    .WorkBox {
+        width: 300px;
+        height: 300px;
+        border: 1px solid #7BA3A8;
+        border-radius: 10px;
+        margin: 15px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .WorkBox img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+    .ProductName {
+        font-size: 18px;
+        color: #FFF;
+        text-align: center;
+        background-color: #7BA3A8;
+        padding: 8px;
+        border-bottom: 1px solid #7BA3A8;
+        border-radius: 0 0 8px 8px;
+    }
+    /*        設計內頁         */
+    .DesignTitle {
+        font-size: 28px;
+        color: #7BA3A8;
+        padding: 5px;
+        border-bottom: 3px solid #7BA3A8;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .DesignBox {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .DesignBox img {
+        width: 100%;
+        padding: 10px 5px;
+        display: block;
+    }
+    .DesignLeft {
+        width: 100%;
+        display: block;
+        vertical-align: top;
+    }
+    .DesignRight {
+        width: 100%;
+        display: block;
+        vertical-align: top;
+    }
+    .Design .Title {
+        padding: 0px 0;
+        font-size: 24px;
+        font-weight: bold;
+        color: #3E3A39;
+        text-align: center;
+        font-family: '微軟正黑體';
+    }
+    .DesignContent {
+        font-size: 16px;
+        color: #595757;
+        padding: 6px 10px;
+        border-radius: 10px;
+    }
+}
