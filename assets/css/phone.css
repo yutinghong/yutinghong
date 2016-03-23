@@ -47,7 +47,7 @@
         margin: 0 auto;
     }
     .ContentBox {
-        width: 300px;
+        width: 100%;
         padding: 50px;
         border-radius: 20px;
         border: 2px dotted #A66953;
