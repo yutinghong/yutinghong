@@ -19,10 +19,11 @@
     /*        Banner         */
     .Banner {
         width: 100%;
-        height: 188px;
+        height: 250px;
         padding: 0;
         background-repeat: no-repeat;
         background-position: center;
+        background-color: #A3BEB2;
         border-bottom: 2px solid #BEAD92;
         display: block;
         background-image: url(../images/index/Banner.png);
