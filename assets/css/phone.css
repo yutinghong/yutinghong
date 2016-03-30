@@ -1,207 +1,141 @@
-/*        手機版         */
-
 @media screen and (max-device-width: 480px) {
-    // 如果使用者之裝置寬度 <= 480px，將會再載入這裡的 CSS。 
+    // 如果使用者之裝置寬度 <= 480px，將會再載入這裡的 CSS。
+    /*  -----∞所有一至區域-----  */
+    * {
+        color: #3E3A39;
+        font-family: '華康儷細黑', '微軟正黑體', '新細明體';
+    }
     .container {
         width: 100%;
         margin: 0 auto;
     }
-    /*        footer         */
+    .container img {
+        width: 100%;
+    }
     .footer {
-        clear: both;
-        width: 100%;
-        height: 100px;
-        padding-top: 30px;
-        text-align: center;
-        background-color: #232323;
-    }
-    /*         首頁          */
-    /*        Banner         */
-    .Banner {
-        width: 100%;
-        height: 250px;
-        padding: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: #A3BEB2;
-        border-bottom: 2px solid #BEAD92;
-        display: block;
-        background-image: url(../images/index/Banner.png);
-    }
-    .BannerTitle {
-        font-size: 14px;
-        font-weight: bold;
-        padding: 10px;
-    }
-    .right .BannerTitle {
-        margin-left: 10px;
-    }
-    .BannerContent {
-        font-size: 12px;
+        color: #F2D6B3;
         padding: 20px;
+        background-color: #202121;
     }
-    /*        Content         */
-    .Content {
-        background-color: #F4F3DE;
-        width: 100%;
-        padding: 10px 0;
+    /*  ∞文字  */
+    .MainTitle {
+        font-size: 36px;
+        font-weight: bold;
+        padding: 4px 10px;
+        margin: 10px 0;
     }
-    .ContentBox {
-        width: 300px;
-        padding: 50px;
-        border-radius: 20px;
-        border: 2px dotted #A66953;
-        margin: 45px;
-        display: block;
-        margin: 29px auto;
-    }
-    .Content img {
-        width: 100%;
-        margin: 0 auto;
-        border-radius: 99em;
-    }
-    .ContentTitle {
+    .PageMainTitle {
+        width: 250px;
         font-size: 24px;
-        padding: 20px 0 0 0;
+        font-weight: bold;
         text-align: center;
-    }
-    /*         關於          */
-    .AboutModel {
-        width: 100%;
-        border-bottom: 2px solid #BEAD92;
-        padding: 20px;
-    }
-    .AboutLeft {
-        width: 100%;
-        display: block;
-    }
-    .AboutRight {
-        width: 100%;
-        display: block;
-    }
-    img {
-        width: 80%
-    }
-    .MyPhoto {
-        margin: 0 auto;
-    }
-    .MyPhoto img {
-        width: 80%;
-        border-radius: 99em;
-    }
-    .Hello {
-        padding: 20px 0;
-        font-size: 36px;
-        font-weight: bold;
-        font-family: 'Verdana', 'Arial';
-    }
-    .Title {
-        padding: 0px 0;
-        font-size: 36px;
-        font-weight: bold;
-        font-family: 'Verdana', 'Arial';
-    }
-    .AboutMe {
-        padding: 10px 0;
+        padding: 4px 10px;
+        border-radius: 50px;
+        margin: 10px 0;
+        color: #F4F3DE;
+        background-color: #7BA3A8;
     }
     .SubTitle {
-        width: 100px;
-        font-size: 18px;
-        color: #FFF;
-        text-align: center;
-        background-color: #5B4947;
-        padding: 6px 10px;
-        border-radius: 10px;
-        display: inline-block;
-        vertical-align: top;
-    }
-    .Answer {
-        font-size: 18px;
-        padding: 6px 10px;
-        color: #5B4947;
-        border-radius: 10px;
-        display: inline-block;
-        vertical-align: top;
-    }
-    .AnswerBlock {
-        font-size: 18px;
-        padding: 6px 10px;
-        color: #5B4947;
-        border-radius: 10px;
-    }
-    /*        平面設計         */
-    .Design {
-        padding: 40px 0;
-    }
-    .DesignTitle {
-        font-size: 36px;
-        color: #7BA3A8;
-        padding-bottom: 5px;
-        border-bottom: 1px solid #7BA3A8;
-        text-align: center;
-    }
-    .WorkBox {
-        width: 300px;
-        height: 300px;
-        border: 1px solid #7BA3A8;
-        border-radius: 10px;
-        margin: 0px auto;
-        display: inline-block;
-        vertical-align: top;
-    }
-    .WorkBox img {
-        width: 100%;
-        border-radius: 10px 10px 0 0;
-    }
-    .ProductName {
-        font-size: 18px;
-        color: #FFF;
-        text-align: center;
-        background-color: #7BA3A8;
-        padding: 8px;
-        border-bottom: 1px solid #7BA3A8;
-        border-radius: 0 0 8px 8px;
-    }
-    /*        設計內頁         */
-    .DesignTitle {
-        font-size: 28px;
-        color: #7BA3A8;
-        padding: 5px;
-        border-bottom: 3px solid #7BA3A8;
-        margin: 30px 0;
-        text-align: center;
-    }
-    .DesignBox {
-        width: 100%;
-        padding: 20px 0;
-    }
-    .DesignBox img {
-        width: 100%;
-        padding: 10px 5px;
-        display: block;
-    }
-    .DesignLeft {
-        width: 100%;
-        display: block;
-        vertical-align: top;
-    }
-    .DesignRight {
-        width: 100%;
-        display: block;
-        vertical-align: top;
-    }
-    .Design .Title {
-        padding: 0px 0;
         font-size: 24px;
-        font-weight: bold;
-        color: #3E3A39;
-        text-align: center;
-        font-family: '微軟正黑體';
+        padding: 4px 10px;
+        margin: 10px 0;
     }
-    .DesignContent {
-        font-size: 16px;
-        color: #595757;
-        padding: 6px 10px;
+    .ArticleOne {
+        font-size: 18px;
+        padding: 4px 10px;
+        margin: 10px 0;
+    }
+    .ArticleTwo {
+        font-size: 14px;
+        padding: 4px 10px;
+        margin: 10px 0;
+    }
+    .ArticleTree {
+        font-size: 12px;
+        padding: 4px 10px;
+        margin: 10px 0;
+    }
+    /*  ∞箱子  */
+    .OneBox {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .TwoBox {
+        width: 100%;
+        margin: 2px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .TwoBoxBig {
+        width: 100%;
+        margin: 20px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .TwoBoxSmall {
+        width: 100%;
+        margin: 20px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .TreeBox {
+        width: 100%;
+        margin: 12px 0px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .FourBox {
+        width: 100%;
+        margin: 12px 0px;
+        display: inline-block;
+        vertical-align: top;
+        box-shadow: 2px 2px 2px #B5B5B6;
+    }
+    /*  ∑首頁  */
+    .IndexBanner {
+        background-color: ;
+        border-bottom: 5px solid #82A28B;
+        background-color: #96BBA0;
+    }
+    .Work {
+        margin: 20px;
+    }
+    /*  ∑關於  */
+    .AboutMe .TwoBox {
+        width: 480px;
+        margin: 20px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .AboutMeBox {
+        border-bottom: 1px solid #5B4947;
+    }
+    .AboutMeTitle {
+        font-size: 60px;
+        font-weight: bold;
+        color: #5B4947;
+    }
+    .AboutMeQuestion {
+        font-size: 20px;
+        width: 120px;
+        color: #FFF;
+        text-align: center;
+        padding: 4px 10px;
         border-radius: 10px;
+        margin: 10px 0;
+        background-color: #5B4947;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .AboutMeAnswer {
+        color: #5B4947;
+        font-size: 20px;
+        margin: 10px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .Ting {
+        background-color: #82A28B;
+        border-radius: 99em;
     }
 }
